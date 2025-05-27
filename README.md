@@ -6,4 +6,4 @@
 
 # value
 
-Limit property values with @MinValue, @MaxValue, @Values — numbers, strings, dates, anything boundable.
+Limit property values with @MinValue, @MaxValue, @Values, @Signed.

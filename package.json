@@ -7,7 +7,7 @@
 		"@itrocks/class-type": "latest",
 		"@itrocks/decorator": "latest"
 	},
-	"description": "Limit property values with @MinValue, @MaxValue, @Values — numbers, strings, dates, anything boundable",
+	"description": "Limit property values with @MinValue, @MaxValue, @Values, @Signed",
 	"devDependencies": {
 		"typescript": "~5.8"
 	},
@@ -39,5 +39,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/value.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
