@@ -1,0 +1,43 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"dependencies": {
+		"@itrocks/class-type": "latest",
+		"@itrocks/decorator": "latest"
+	},
+	"description": "Limit property values with @MinValue, @MaxValue, @Values — numbers, strings, dates, anything boundable",
+	"devDependencies": {
+		"typescript": "~5.8"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": "./cjs/value.js",
+	"homepage": "https://it.rocks",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"cjs/*",
+		"!*.map"
+	],
+	"keywords": [
+		"backend",
+		"decorator",
+		"it.rocks",
+		"property",
+		"value"
+	],
+	"license": "ISC",
+	"name": "@itrocks/value",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/value.git"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"types": "./cjs/value.d.ts",
+	"version": "0.0.1"
+}
