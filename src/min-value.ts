@@ -3,12 +3,14 @@ import { decorate, decoratorOf } from '@itrocks/decorator/property'
 
 const MIN_VALUE = Symbol('minValue')
 
-export function MinValue<T extends object>(value?: number | string | undefined | Date)
+type Ranged = bigint | number | string | Date | undefined
+
+export function MinValue<T extends object>(value?: Ranged)
 {
 	return decorate<T>(MIN_VALUE, value)
 }
 
 export function minValueOf<T extends object>(target: ObjectOrType<T>, property: KeyOf<T>)
 {
-	return decoratorOf<number | string | undefined | Date, T>(target, property, MIN_VALUE, undefined)
+	return decoratorOf<Ranged, T>(target, property, MIN_VALUE, undefined)
 }
