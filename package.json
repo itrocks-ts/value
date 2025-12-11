@@ -26,7 +26,11 @@
 		"backend",
 		"decorator",
 		"it.rocks",
+		"max",
+		"min",
 		"property",
+		"range",
+		"signed",
 		"value"
 	],
 	"license": "ISC",
@@ -39,5 +43,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/value.d.ts",
-	"version": "0.0.4"
+	"version": "0.0.5"
 }
